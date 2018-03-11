@@ -77,7 +77,7 @@ void word(char *in, char **buf, int * i, int *j, int *count) //нахождение слова 
 	(*i) = 0;
 }
 
-	void mixWord(char **buf, char **out, int *j, int *count)//перемешивание слов
+	void mixWord(char **buf, char *out, int *j, int *count)//перемешивание слов
 	{
 		int cn = 0;// рандомный элемент
 		srand(time(0));
